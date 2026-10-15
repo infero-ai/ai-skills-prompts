@@ -2,7 +2,7 @@
 name: reverse-engineer-anything
 description: "Use REA (rea-agents) to reverse engineer binaries, JS/Electron apps, APKs, .NET, EVM, WASM, and websites — evidence-backed, runs locally."
 version: 0.1.0
-author: celebez (0xcelebez), Hermes Agent
+author: infero-ai, Hermes Agent
 license: MIT
 platforms: [linux]
 metadata:
@@ -82,7 +82,7 @@ Hopper can be auto-installed by `rea` setup WITH user approval (never assume).
   analysis is unaffected (verified via inspect-sqlite-database).
 - ai-skills-prompts sync uses `rsync --delete` — this skill lives only locally;
   canonical backup at `~/workspace/rea/SKILL.md`. Re-copy after each sync until
-  it's added to the 0xcelebez/ai-skills-prompts repo.
+  it's added to the upstream ai-skills-prompts repo.
 - Linux needs a procps-compatible `ps` on PATH for JS/Electron process checks.
 - Native deep analysis needs a provider (Hopper/Ghidra/IDA) — none installed in
   sandbox; `capabilities` shows native providers unavailable (host or missing).
